@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Dashboard</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .dashboard {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+        margin: 20px;
+      }
+      .chart {
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Interactive Dashboard</h1>
+    <div class="dashboard">
+      <div class="chart" id="chart1"></div>
+      <div class="chart" id="chart2"></div>
+      <div class="chart" id="chart3"></div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
